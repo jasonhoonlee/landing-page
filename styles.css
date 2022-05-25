@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Grape Nuts', cursive;
+  font-family: 'Caveat', cursive;
 }
 
 .nav-bar h1 {
@@ -37,16 +38,15 @@ header {
   margin-bottom: 30px;
 }
 
-.info {
+header .info {
   width: 400px;
-  font-family: 'Quicksand', sans-serif;
 }
 
-.info h2 {
+header .info h2 {
   margin: 0px;
   margin-top: 20px;
 }
-.info h3 {
+header .info h3 {
   font-weight: lighter;
   margin-top: 8px;
   margin-bottom: 16px;
@@ -61,8 +61,12 @@ a {
   color: royalblue;
 }
 
+header a:hover {
+  color: #4BDAD1;
+}
+
 button {
-  font-family: 'Grape Nuts', cursive;
+  font-family: 'Caveat', cursive;
   background-color: royalblue;
   color: white;
   font-size: 20px;
@@ -70,3 +74,77 @@ button {
   border: none;
   border-radius: 5px;
 }
+
+.dog-book img {
+  width: 120px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------ main section -------- */
+
+
+
+main h2 {
+  margin-top: 0px;
+}
+
+main ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+main .options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+main .options li {
+  text-align: center;
+  list-style: none;
+  border: 10px #4BDAD1 solid ;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+main .options li:hover {
+  border: 10px royalblue solid;
+}
+
+main .option-info {
+  margin: 0px;
+}
+
+main .dog-book img {
+  width: 100px;
+  height: auto;
+}
+
+main .quote {
+  background-color: lightgray;
+  padding: 60px;
+  text-align: center;
+}
+
+main q {
+  display: inline-block;
+  font-style: italic;
+  line-height: 1.5;
+  width: 600px;
+}
+
+main .author {
+  align-self: end;
+}
+
+
