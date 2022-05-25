@@ -1,4 +1,7 @@
 
+
+
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -132,7 +135,7 @@ main .dog-book img {
 
 main .quote {
   background-color: lightgray;
-  padding: 60px;
+  padding: 60px 60px;
   text-align: center;
 }
 
@@ -143,8 +146,24 @@ main q {
   width: 600px;
 }
 
-main .author {
-  align-self: end;
+
+main p.author {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
 }
+
+
+/* ----------- footer -------------- */
+
+footer {
+  padding: 60px;
+}
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
 
 
